@@ -16,3 +16,5 @@ plt.show()
 sns.pairplot(data, diag_kind='kde', plot_kws={'alpha': 0.5})
 plt.suptitle('Pair Plot of California Housing Features', y=1.02)
 plt.show()
+
+#Output of the program is saved in the folder Outputs.

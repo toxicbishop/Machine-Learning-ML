@@ -43,3 +43,5 @@ for feature in numerical_features:
     print(f"{feature}:{len(outliers)}outliers")
     print("\nDataset Summary:")
     print(housing_df.describe())
+
+#Output of the program is saved in the folder Outputs.

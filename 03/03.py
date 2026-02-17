@@ -32,3 +32,5 @@ plt.ylabel('Principal Component 2')
 plt.legend()
 plt.grid()
 plt.show()
+
+#Output of the program is saved in the folder Outputs.
