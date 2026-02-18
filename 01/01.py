@@ -38,8 +38,7 @@ for feature in numerical_features:
     IQR = Q3 - Q1
     lower_bound = Q1 - 1.5 * IQR
     upper_bound = Q3 + 1.5 * IQR
-outliers = housing_df[(housing_df[feature] < lower_bound) | (housing_df[feature] >
-upper_bound)]
+    outliers = housing_df[(housing_df[feature] < lower_bound) | (housing_df[feature] >upper_bound)]
     outliers_summary[feature] = len(outliers)
     print(f"{feature}: {len(outliers)} outliers")
 # Optional: Print a summary of the dataset
