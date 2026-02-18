@@ -1,4 +1,7 @@
 #Program1
+#Develop a program to create histograms for all numerical features and analyze the
+#distribution of each feature. Generate box plots for all numerical features and identify any
+#outliers. Use California Housing dataset.
 import numpy as np
 import pandas as pd
 import seaborn as sns
