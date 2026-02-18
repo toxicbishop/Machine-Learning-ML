@@ -1,4 +1,4 @@
-# Machine Learning Basics (BCSL606) 🤖
+# Machine Learning Basics (BCSL606)
 
 Welcome to the **BCSL606: Machine Learning Basics** repository. This project is a curated collection of lab exercises and experiments designed to understand the fundamental concepts of Machine Learning, data preprocessing, visualization, and dimensionality reduction.
 
@@ -72,9 +72,3 @@ pip install numpy pandas seaborn matplotlib scikit-learn
 - **Key Learning**: Reducing feature space while preserving variance.
 
 ---
-
-## 📝 Author
-
-**toxicbishop**
-
-*Keep Learning, Keep Automating!* 🚀
