@@ -44,3 +44,5 @@ for feature in numerical_features:
 # Optional: Print a summary of the dataset
 print("\nDataset Summary:")
 print(housing_df.describe())
+
+#Output of the program is saved in the folder Outputs.
