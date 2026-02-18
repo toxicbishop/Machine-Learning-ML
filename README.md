@@ -23,10 +23,10 @@ To run these experiments locally, follow the steps below.
 
 ### 📋 Prerequisites
 
-Ensure you have Python installed. You will need the following libraries:
+Ensure you have Python installed. Install the required libraries using the `requirements.txt` file:
 
 ```bash
-pip install numpy pandas seaborn matplotlib scikit-learn
+pip install -r requirements.txt
 ```
 
 ### 🏃 How to Run
