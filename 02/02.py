@@ -1,8 +1,7 @@
-#Program2
-#Develop a program to Compute the correlation matrix to understand the relationships between
-#pairs of features. Visualize the correlation matrix using a heatmap to know which variables
-#have strong positive/negative correlations. Create a pair plot to visualize pairwise
-#relationships between features. Use California Housing dataset.
+"""Develop a program to Compute the correlation matrix to understand the relationships between
+pairs of features. Visualize the correlation matrix using a heatmap to know which variables
+have strong positive/negative correlations. Create a pair plot to visualize pairwise
+relationships between features. Use California Housing dataset."""
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
@@ -22,4 +21,4 @@ sns.pairplot(data, diag_kind='kde', plot_kws={'alpha': 0.5})
 plt.suptitle('Pair Plot of California Housing Features', y=1.02)
 plt.show()
 
-#Output of the program is saved in the folder Outputs.
+# Output of the program is saved in the folder Outputs.

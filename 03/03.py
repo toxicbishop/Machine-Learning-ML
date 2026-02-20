@@ -1,6 +1,5 @@
-#Program3
-#Develop a program to implement Principal Component Analysis (PCA) for reducing
-#the dimensionality of the Iris dataset from 4 features to 2
+"""Develop a program to implement Principal Component Analysis (PCA) for reducing
+the dimensionality of the Iris dataset from 4 features to 2"""
 import numpy as np
 import pandas as pd
 from sklearn.datasets import load_iris
