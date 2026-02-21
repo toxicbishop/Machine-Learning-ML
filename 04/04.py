@@ -63,20 +63,18 @@ print("\nThe final hypothesis is:", hypothesis)
 =============================================================================
 Output:
 Training data:
-     Sky AirTemp Humidity    Wind Water Forecast EnjoySport
-0  Sunny    Warm   Normal  Strong  Warm     Same        Yes
-1  Sunny    Warm     High  Strong  Warm     Same        Yes
-2  Rainy    Cold     High  Strong  Warm   Change         No
-3  Sunny    Warm     High  Strong  Cool   Change        Yes
 
-The final hypothesis is: ['Sunny', 'Warm', '?', 'Strong', '?', '?']
-Explanation:
-  Sky      = Sunny   (all positive examples have Sunny)
-  AirTemp  = Warm    (all positive examples have Warm)
-  Humidity = ?       (Normal in ex1, High in ex2,ex3 → generalised)
-  Wind     = Strong  (all positive examples have Strong)
-  Water    = ?       (Warm in ex1,ex2, Cool in ex3 → generalised)
-  Forecast = ?       (Same in ex1,ex2, Change in ex3 → generalised)
+     Outlook  Temperature  Humidity  Windy  PlayTennis
+0     Sunny         Hot     High     False       No
+1     Sunny         Hot     High     True        No
+2  Overcast         Hot     High     False       Yes
+3      Rain        Cold     High     False       Yes
+4      Rain        Cold     High     True        No
+5  Overcast         Hot     High     True        Yes
+6     Sunny         Hot     High     False       No
+
+
+The final hypothesis is: ['Overcast', 'Hot', 'High', '?']
 =============================================================================
 """
 
