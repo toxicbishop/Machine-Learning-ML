@@ -23,6 +23,8 @@
 =============================================================================
 """
 
+"""Question: Develop a program to demonstrate the working of the decision tree algorithm. Use Breast Cancer Data set 
+for building the decision tree and apply this knowledge to classify a new sample. """
 # Importing necessary libraries
 import numpy as np
 import matplotlib.pyplot as plt

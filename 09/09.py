@@ -25,6 +25,9 @@
 =============================================================================
 """
 
+"""Question: Develop a program to implement the Naive Bayesian classifier considering Olivetti Face Data set for training. 
+Compute the accuracy of the classifier, considering a few test data sets."""
+
 import numpy as np
 from sklearn.datasets import fetch_olivetti_faces
 from sklearn.model_selection import train_test_split, cross_val_score
