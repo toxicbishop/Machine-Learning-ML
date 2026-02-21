@@ -25,6 +25,8 @@
 =============================================================================
 """
 
+import os
+
 import pandas as pd
 
 
@@ -50,7 +52,7 @@ def find_s_algorithm(file_path):
     return hypothesis
 
 
-file_path = 'training_data.csv'
+file_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'training_data.csv')
 hypothesis = find_s_algorithm(file_path)
 print("\nThe final hypothesis is:", hypothesis)
 
