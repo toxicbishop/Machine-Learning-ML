@@ -13,6 +13,9 @@
   Dependencies : numpy, pandas, matplotlib, seaborn, scikit-learn
                  (pip install numpy pandas matplotlib seaborn scikit-learn)
 
+Question: Develop a program to create histograms for all numerical features and analyze the distribution of each 
+feature. Generate box plots for all numerical features and identify any outliers. Use California Housing 
+dataset.
   Output :
     - Histogram plot  : distribution of each numerical feature (3×3 grid)
     - Box plot        : box plots for each feature showing spread & outliers
