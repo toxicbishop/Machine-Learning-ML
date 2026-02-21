@@ -62,22 +62,24 @@ for ax, image, label, prediction in zip(axes.ravel(), X_test, y_test, y_pred):
 
 plt.show()
 
-# =============================================================================
-# Output:
-# Accuracy: 85.00%
-#
-# Classification Report:
-#               precision  recall  f1-score  support
-#            0       0.90    0.82      0.86       14
-#            1       0.83    0.91      0.87       11
-#   ...      (one row per person / class, 40 subjects total)
-#   accuracy                           0.85      120
-#
-# Confusion Matrix: (40 x 40 matrix printed)
-#
-# Cross-validation accuracy: 83.50%
-#
-# Plot: 3x5 grid of grayscale face images
-#       Each cell shows: True label vs Predicted label
-#       Saved in Outputs/
-# =============================================================================
+"""
+=============================================================================
+Output:
+Accuracy: 85.00%
+
+Classification Report:
+              precision  recall  f1-score  support
+           0       0.90    0.82      0.86       14
+           1       0.83    0.91      0.87       11
+  ...      (one row per person / class, 40 subjects total)
+  accuracy                           0.85      120
+
+Confusion Matrix: (40 x 40 matrix printed)
+
+Cross-validation accuracy: 83.50%
+
+Plot: 3x5 grid of grayscale face images
+      Each cell shows: True label vs Predicted label
+      Saved in Outputs/
+=============================================================================
+"""

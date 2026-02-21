@@ -88,22 +88,24 @@ for k in k_values:
     plt.grid(True)
     plt.show()
 
-# =============================================================================
-# Output:
-# --- k-Nearest Neighbors Classification ---
-# Training dataset: First 50 points labeled based on the rule
-#   (x <= 0.5 -> Class1, x > 0.5 -> Class2)
-# Testing dataset: Remaining 50 points to be classified
-#
-# Results for k = 1:
-#   Point x51 (value: 0.7431) is classified as Class2
-#   Point x52 (value: 0.1234) is classified as Class1
-#   ... (50 points total per k value)
-#
-# Results for k = 3, 5, 20, 30: (similar format)
-#
-# Plots: 7 scatter plots (one per k value)
-#        Row 0 = training data (blue=Class1, red=Class2)
-#        Row 1 = classified test points (blue=Class1 x, red=Class2 x)
-#        Saved in Outputs/
-# =============================================================================
+"""
+=============================================================================
+Output:
+--- k-Nearest Neighbors Classification ---
+Training dataset: First 50 points labeled based on the rule
+  (x <= 0.5 -> Class1, x > 0.5 -> Class2)
+Testing dataset: Remaining 50 points to be classified
+
+Results for k = 1:
+  Point x51 (value: 0.7431) is classified as Class2
+  Point x52 (value: 0.1234) is classified as Class1
+  ... (50 points total per k value)
+
+Results for k = 3, 5, 20, 30: (similar format)
+
+Plots: 7 scatter plots (one per k value)
+       Row 0 = training data (blue=Class1, red=Class2)
+       Row 1 = classified test points (blue=Class1 x, red=Class2 x)
+       Saved in Outputs/
+=============================================================================
+"""

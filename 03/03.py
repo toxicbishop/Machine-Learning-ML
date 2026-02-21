@@ -57,12 +57,14 @@ plt.grid()
 plt.show()
 
 
-# =============================================================================
-# Output:
-# Plot: PCA on Iris Dataset (2-D scatter)
-#       X-axis : Principal Component 1  (explains ~92.5% variance)
-#       Y-axis : Principal Component 2  (explains ~5.3%  variance)
-#       Classes: setosa (red)  |  versicolor (green)  |  virginica (blue)
-#       Setosa is clearly linearly separable from the other two classes.
-#       Saved in Outputs/
-# =============================================================================
+"""
+=============================================================================
+Output:
+Plot: PCA on Iris Dataset (2-D scatter)
+      X-axis : Principal Component 1  (explains ~92.5% variance)
+      Y-axis : Principal Component 2  (explains ~5.3%  variance)
+      Classes: setosa (red)  |  versicolor (green)  |  virginica (blue)
+      Setosa is clearly linearly separable from the other two classes.
+      Saved in Outputs/
+=============================================================================
+"""

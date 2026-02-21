@@ -56,14 +56,16 @@ plt.legend(fontsize=10)
 plt.grid(alpha=0.3)
 plt.show()
 
-# =============================================================================
-# Output:
-# Plot: Locally Weighted Regression (tau = 0.5)
-#       Red dots  : 100 noisy training points sampled from sin(x) + noise
-#       Blue line : Smooth LWR predicted curve closely following sin(x)
-#       X-axis    : 0 to 2π
-#       Y-axis    : y values (approx -1.0 to 1.0)
-#       Smaller tau → more local/wiggly fit
-#       Larger  tau → smoother, more global fit
-#       Saved in Outputs/
-# =============================================================================
+"""
+=============================================================================
+Output:
+Plot: Locally Weighted Regression (tau = 0.5)
+      Red dots  : 100 noisy training points sampled from sin(x) + noise
+      Blue line : Smooth LWR predicted curve closely following sin(x)
+      X-axis    : 0 to 2π
+      Y-axis    : y values (approx -1.0 to 1.0)
+      Smaller tau → more local/wiggly fit
+      Larger  tau → smoother, more global fit
+      Saved in Outputs/
+=============================================================================
+"""
