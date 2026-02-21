@@ -1,3 +1,21 @@
+"""
+=============================================================================
+  MACHINE LEARNING — Week 06
+  Topic : Non-Parametric Regression — Locally Weighted Regression (LWR)
+  File  : 06.py
+
+  Approach : Locally Weighted Regression with Gaussian Kernel
+    1. Generate noisy sine-wave training data
+    2. Define a Gaussian kernel weight function  w_i = exp(-||x-x_i||² / 2τ²)
+    3. For each test point, solve a weighted least-squares problem
+       θ = (Xᵀ W X)⁻¹ Xᵀ W y
+    4. Predict and visualize the LWR fit vs. training data
+
+  No external API keys required.
+  Dependencies : numpy, matplotlib  (pip install numpy matplotlib)
+=============================================================================
+"""
+
 import numpy as np
 import matplotlib.pyplot as plt
 

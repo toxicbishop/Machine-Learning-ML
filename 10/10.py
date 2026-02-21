@@ -1,3 +1,23 @@
+"""
+=============================================================================
+  MACHINE LEARNING — Week 10
+  Topic : Unsupervised Learning — K-Means Clustering
+  File  : 10.py
+
+  Approach : K-Means Clustering with PCA Visualization
+    1. Load the Breast Cancer dataset (sklearn)
+    2. Standardize features with StandardScaler
+    3. Apply K-Means clustering  (k = 2)
+    4. Evaluate clusters via confusion matrix & classification report
+    5. Reduce to 2-D with PCA for visualization
+    6. Plot cluster assignments, true labels, and centroids
+
+  No external API keys required.
+  Dependencies : numpy, pandas, matplotlib, seaborn, scikit-learn
+                 (pip install numpy pandas matplotlib seaborn scikit-learn)
+=============================================================================
+"""
+
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt

@@ -1,3 +1,23 @@
+"""
+=============================================================================
+  MACHINE LEARNING — Week 08
+  Topic : Tree-Based Learning — Decision Tree Classifier
+  File  : 08.py
+
+  Approach : Decision Tree Classification
+    1. Load the Breast Cancer dataset (sklearn)
+    2. Split into train / test sets  (80 / 20)
+    3. Train a DecisionTreeClassifier (CART algorithm)
+    4. Evaluate accuracy on the test set
+    5. Predict the class for a new sample (Benign / Malignant)
+    6. Visualize the full decision tree
+
+  No external API keys required.
+  Dependencies : numpy, matplotlib, scikit-learn
+                 (pip install numpy matplotlib scikit-learn)
+=============================================================================
+"""
+
 # Importing necessary libraries
 import numpy as np
 import matplotlib.pyplot as plt

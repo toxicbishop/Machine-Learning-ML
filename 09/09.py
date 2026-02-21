@@ -1,3 +1,23 @@
+"""
+=============================================================================
+  MACHINE LEARNING — Week 09
+  Topic : Probabilistic Learning — Naïve Bayes Classifier
+  File  : 09.py
+
+  Approach : Gaussian Naïve Bayes on Face Recognition
+    1. Load the Olivetti Faces dataset (sklearn)
+    2. Split into train / test sets  (70 / 30)
+    3. Train a GaussianNB classifier
+    4. Evaluate with accuracy score, classification report & confusion matrix
+    5. Perform 5-fold cross-validation
+    6. Visualize a sample of test predictions
+
+  No external API keys required.
+  Dependencies : numpy, matplotlib, scikit-learn
+                 (pip install numpy matplotlib scikit-learn)
+=============================================================================
+"""
+
 import numpy as np
 from sklearn.datasets import fetch_olivetti_faces
 from sklearn.model_selection import train_test_split, cross_val_score

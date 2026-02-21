@@ -1,3 +1,22 @@
+"""
+=============================================================================
+  MACHINE LEARNING — Week 07
+  Topic : Regression — Linear Regression & Polynomial Regression
+  File  : 07.py
+
+  Approach : Two Regression Demonstrations
+    1. Linear Regression on California Housing dataset
+       (AveRooms → median house value, sklearn LinearRegression)
+    2. Polynomial Regression on Auto MPG dataset  (degree = 2)
+       (Displacement → mpg, sklearn PolynomialFeatures + Pipeline)
+    3. Evaluate both models with MSE and R² score
+
+  No external API keys required.
+  Dependencies : numpy, pandas, matplotlib, scikit-learn
+                 (pip install numpy pandas matplotlib scikit-learn)
+=============================================================================
+"""
+
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt

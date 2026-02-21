@@ -1,3 +1,21 @@
+"""
+=============================================================================
+  MACHINE LEARNING — Week 05
+  Topic : Instance-Based Learning — k-Nearest Neighbors (k-NN) Classifier
+  File  : 05.py
+
+  Approach : k-NN Classification
+    1. Generate 100 random 1-D data points
+    2. Label first 50 points: Class1 if x <= 0.5, else Class2
+    3. Classify remaining 50 test points using k-NN with Euclidean distance
+    4. Evaluate results for multiple values of k = [1, 2, 3, 4, 5, 20, 30]
+    5. Visualize classification results with scatter plots
+
+  No external API keys required.
+  Dependencies : numpy, matplotlib  (pip install numpy matplotlib)
+=============================================================================
+"""
+
 import numpy as np
 import matplotlib.pyplot as plt
 from collections import Counter
