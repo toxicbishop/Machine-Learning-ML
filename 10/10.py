@@ -15,6 +15,13 @@
   No external API keys required.
   Dependencies : numpy, pandas, matplotlib, seaborn, scikit-learn
                  (pip install numpy pandas matplotlib seaborn scikit-learn)
+
+  Output :
+    - Console : Confusion matrix (2×2) — clusters vs true labels
+    - Console : Classification report (precision, recall, F1)
+    - Plot 1  : PCA scatter coloured by K-Means cluster assignment
+    - Plot 2  : PCA scatter coloured by true cancer labels
+    - Plot 3  : PCA scatter with cluster centroids marked as red ✕
 =============================================================================
 """
 

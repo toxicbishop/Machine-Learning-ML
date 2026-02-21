@@ -16,6 +16,12 @@
 
   No external API keys required.
   Dependencies : pandas  (pip install pandas)
+
+  Output :
+    - Console : full training data table
+    - Console : final hypothesis list, e.g.
+                ['Sunny', 'Warm', '?', 'Strong', '?', '?']
+                where '?' means any value is accepted for that attribute
 =============================================================================
 """
 

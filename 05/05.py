@@ -13,6 +13,12 @@
 
   No external API keys required.
   Dependencies : numpy, matplotlib  (pip install numpy matplotlib)
+
+  Output :
+    - Console : classified label for each of the 50 test points per k
+                e.g. Point x51 (value: 0.7431) is classified as Class2
+    - Plots   : scatter plot per k value showing training data (row 0)
+                and classified test points (row 1) in blue / red
 =============================================================================
 """
 

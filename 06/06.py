@@ -13,6 +13,11 @@
 
   No external API keys required.
   Dependencies : numpy, matplotlib  (pip install numpy matplotlib)
+
+  Output :
+    - Plot : scatter of noisy sine-wave training data (red dots)
+             overlaid with the smooth LWR predicted curve (blue line)
+             for tau = 0.5  (smaller tau = more local / wiggly fit)
 =============================================================================
 """
 

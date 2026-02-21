@@ -12,6 +12,11 @@
 
   Dependencies : pandas, matplotlib, seaborn, scikit-learn
                  (pip install pandas matplotlib seaborn scikit-learn)
+
+  Output :
+    - Heatmap : correlation matrix of all California Housing features
+                (annotated with r values, coolwarm colour palette)
+    - Pair plot : pairwise scatter plots + KDE diagonals for all features
 =============================================================================
 """
 

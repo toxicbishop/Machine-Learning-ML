@@ -12,6 +12,13 @@
 
   Dependencies : numpy, pandas, matplotlib, seaborn, scikit-learn
                  (pip install numpy pandas matplotlib seaborn scikit-learn)
+
+  Output :
+    - Histogram plot  : distribution of each numerical feature (3×3 grid)
+    - Box plot        : box plots for each feature showing spread & outliers
+    - Console         : number of outliers per feature using the IQR method
+                        e.g. MedInc: 681 outliers
+    - Console         : full dataset statistical summary (describe())
 =============================================================================
 """
 

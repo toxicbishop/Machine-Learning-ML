@@ -15,6 +15,13 @@
   No external API keys required.
   Dependencies : numpy, matplotlib, scikit-learn
                  (pip install numpy matplotlib scikit-learn)
+
+  Output :
+    - Console : Accuracy  e.g. 85.00%
+    - Console : Classification report (precision, recall, F1 per class)
+    - Console : 40×40 confusion matrix (one row/col per person)
+    - Console : 5-fold cross-validation mean accuracy
+    - Plot    : 3×5 grid of face images with true vs predicted labels
 =============================================================================
 """
 

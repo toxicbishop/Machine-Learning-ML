@@ -15,6 +15,11 @@
   No external API keys required.
   Dependencies : numpy, matplotlib, scikit-learn
                  (pip install numpy matplotlib scikit-learn)
+
+  Output :
+    - Console : Model Accuracy  e.g. 93.86%
+    - Console : Predicted class for test sample  e.g. Benign / Malignant
+    - Plot    : Full decision tree visualization with colour-coded nodes
 =============================================================================
 """
 

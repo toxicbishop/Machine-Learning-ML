@@ -14,6 +14,12 @@
   No external API keys required.
   Dependencies : numpy, pandas, matplotlib, scikit-learn
                  (pip install numpy pandas matplotlib scikit-learn)
+
+  Output :
+    - Plot    : actual vs predicted regression line (Linear — California)
+    - Plot    : actual vs predicted scatter (Polynomial — Auto MPG)
+    - Console : Mean Squared Error and R² Score for both models
+                e.g. MSE: 0.6521   R²: 0.0345
 =============================================================================
 """
 

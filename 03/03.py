@@ -11,6 +11,11 @@
 
   Dependencies : numpy, pandas, matplotlib, scikit-learn
                  (pip install numpy pandas matplotlib scikit-learn)
+
+  Output :
+    - Scatter plot : 2-D PCA projection of the Iris dataset
+                     3 classes (Setosa / Versicolour / Virginica)
+                     plotted in red, green, blue respectively
 =============================================================================
 """
 
