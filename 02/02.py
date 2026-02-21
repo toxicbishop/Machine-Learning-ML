@@ -43,4 +43,15 @@ sns.pairplot(data, diag_kind='kde', plot_kws={'alpha': 0.5})
 plt.suptitle('Pair Plot of California Housing Features', y=1.02)
 plt.show()
 
-# Output of the program is saved in the folder Outputs.
+
+# =============================================================================
+# Output:
+# Plot 1: Heatmap — Correlation Matrix of California Housing Features
+#         Strong positive  : AveRooms & AveBedrms (r ≈ 0.85)
+#         Strong negative  : Latitude & Longitude  (r ≈ -0.92)
+#         Target (MedHouseVal) correlates most with MedInc (r ≈ 0.69)
+#
+# Plot 2: Pair Plot — Pairwise relationships between all features
+#         Diagonal shows KDE distribution of each individual feature
+#         Saved in Outputs/
+# =============================================================================

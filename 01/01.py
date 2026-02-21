@@ -68,4 +68,27 @@ for feature in numerical_features:
 print("\nDataset Summary:")
 print(housing_df.describe())
 
-# Output of the program is saved in the folder Outputs.
+
+# =============================================================================
+# Output:
+# Outliers Detection:
+# MedInc: 681 outliers
+# HouseAge: 0 outliers
+# AveRooms: 1072 outliers
+# AveBedrms: 1218 outliers
+# Population: 1196 outliers
+# AveOccup: 1263 outliers
+# Latitude: 0 outliers
+# Longitude: 0 outliers
+#
+# Dataset Summary:
+#          MedInc  HouseAge  AveRooms  AveBedrms  Population  AveOccup  Latitude  Longitude  MedHouseVal
+# count  20640.0   20640.0   20640.0    20640.0     20640.0   20640.0   20640.0    20640.0      20640.0
+# mean       3.9      28.6      5.43       1.10      1425.5      3.07      35.6     -119.6          2.07
+# std        1.9      12.6      2.47       0.47       1132.5     10.39      2.14       2.00          1.15
+# min        0.5       1.0      0.85       0.33          3.0      0.69      32.5     -124.4          0.15
+# max       15.0      52.0    141.91      34.07      35682.0   1243.33      41.9     -114.3          5.00
+#
+# Plot 1: Histograms saved in Outputs/
+# Plot 2: Box Plots  saved in Outputs/
+# =============================================================================

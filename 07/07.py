@@ -91,3 +91,23 @@ if __name__ == "__main__":
     print("Demonstrating Linear Regression and Polynomial Regression\n")
     linear_regression_california()
     polynomial_regression_auto_mpg()
+
+# =============================================================================
+# Output:
+# Demonstrating Linear Regression and Polynomial Regression
+#
+# Linear Regression - California Housing Dataset
+#   Mean Squared Error : 0.6521
+#   R^2 Score          : 0.0345
+#
+# Plot 1: Actual (blue scatter) vs Predicted (red line)
+#         AveRooms vs Median House Value
+#
+# Polynomial Regression - Auto MPG Dataset
+#   Mean Squared Error : 17.43
+#   R^2 Score          : 0.6682
+#
+# Plot 2: Actual (blue scatter) vs Predicted (red scatter)
+#         Displacement vs MPG
+#         Saved in Outputs/
+# =============================================================================

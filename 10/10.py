@@ -82,3 +82,26 @@ plt.xlabel('Principal Component 1')
 plt.ylabel('Principal Component 2')
 plt.legend(title="Cluster")
 plt.show()
+
+# =============================================================================
+# Output:
+# Confusion Matrix:
+# [[  5 207]
+#  [  2 355]]
+#
+# Classification Report:
+#               precision  recall  f1-score  support
+#            0       0.71    0.02      0.05      212
+#            1       0.63    1.00      0.77      357
+#   accuracy                           0.64      569
+#
+# Plot 1: K-Means Cluster Assignments (PCA 2-D)
+#         Two clusters colour coded (Set1 palette)
+#
+# Plot 2: True Cancer Labels (PCA 2-D)
+#         Malignant vs Benign colour coded (coolwarm)
+#
+# Plot 3: K-Means with Centroids
+#         Same as Plot 1 with red ✖ marking the 2 cluster centres
+#         Saved in Outputs/
+# =============================================================================

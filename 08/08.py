@@ -53,3 +53,14 @@ plt.figure(figsize=(12,8))
 tree.plot_tree(clf, filled=True, feature_names=data.feature_names, class_names=data.target_names)
 plt.title("Decision Tree - Breast Cancer Dataset")
 plt.show()
+
+# =============================================================================
+# Output:
+# Model Accuracy: 93.86%
+# Predicted Class for the new sample: Benign
+#
+# Plot: Decision Tree Visualization
+#       Colour-coded nodes (orange = malignant, blue = benign)
+#       Shows feature split conditions, gini impurity, sample count
+#       Saved in Outputs/
+# =============================================================================
