@@ -1,3 +1,20 @@
+"""
+=============================================================================
+  MACHINE LEARNING — Week 02
+  Topic : Feature Relationships — Correlation Matrix, Heatmap & Pair Plot
+  File  : 02.py
+
+  Approach : Correlation & Pairwise Visualization
+    1. Load the California Housing dataset (sklearn)
+    2. Compute the correlation matrix
+    3. Visualize the correlation matrix as a heatmap  (seaborn heatmap)
+    4. Create a pair plot for pairwise feature relationships (seaborn pairplot)
+
+  Dependencies : pandas, matplotlib, seaborn, scikit-learn
+                 (pip install pandas matplotlib seaborn scikit-learn)
+=============================================================================
+"""
+
 """Develop a program to Compute the correlation matrix to understand the relationships between
 pairs of features. Visualize the correlation matrix using a heatmap to know which variables
 have strong positive/negative correlations. Create a pair plot to visualize pairwise

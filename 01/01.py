@@ -1,3 +1,20 @@
+"""
+=============================================================================
+  MACHINE LEARNING — Week 01
+  Topic : Exploratory Data Analysis — Histograms, Box Plots & Outlier Detection
+  File  : 01.py
+
+  Approach : Descriptive Statistics & Visualization
+    1. Load the California Housing dataset (sklearn)
+    2. Plot histograms for all numerical features  (seaborn histplot)
+    3. Generate box plots for all numerical features (seaborn boxplot)
+    4. Detect outliers using the IQR method
+
+  Dependencies : numpy, pandas, matplotlib, seaborn, scikit-learn
+                 (pip install numpy pandas matplotlib seaborn scikit-learn)
+=============================================================================
+"""
+
 """Develop a program to create histograms for all numerical features and analyze the
 #distribution of each feature. Generate box plots for all numerical features and identify any
 #outliers. Use California Housing dataset."""

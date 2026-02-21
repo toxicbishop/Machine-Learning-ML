@@ -1,3 +1,19 @@
+"""
+=============================================================================
+  MACHINE LEARNING — Week 03
+  Topic : Dimensionality Reduction — Principal Component Analysis (PCA)
+  File  : 03.py
+
+  Approach : PCA for Dimensionality Reduction
+    1. Load the Iris dataset (sklearn)
+    2. Apply PCA to reduce 4 features → 2 principal components
+    3. Visualize the reduced 2-D representation using a scatter plot
+
+  Dependencies : numpy, pandas, matplotlib, scikit-learn
+                 (pip install numpy pandas matplotlib scikit-learn)
+=============================================================================
+"""
+
 """Develop a program to implement Principal Component Analysis (PCA) for reducing
 the dimensionality of the Iris dataset from 4 features to 2"""
 import numpy as np

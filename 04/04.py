@@ -1,0 +1,49 @@
+"""
+=============================================================================
+  MACHINE LEARNING — Week 04
+  Topic : Concept Learning — Find-S Algorithm
+  File  : 04.py
+
+  Approach : Find-S Algorithm (Most Specific Hypothesis)
+    1. Read training examples from a CSV file
+       (last column must be the label: 'Yes' / 'No')
+    2. Initialise hypothesis h to '?' for all attributes
+    3. For every POSITIVE example:
+         For each attribute a_i:
+           if h[i] == '?' or h[i] == a_i  → set h[i] = a_i
+           else                            → generalise h[i] = '?'
+    4. Output the final hypothesis h
+
+  No external API keys required.
+  Dependencies : pandas  (pip install pandas)
+=============================================================================
+"""
+
+import pandas as pd
+
+
+def find_s_algorithm(file_path):
+    data = pd.read_csv(file_path)
+
+    print("Training data:")
+    print(data)
+
+    attributes = data.columns[:-1]
+    class_label = data.columns[-1]
+
+    hypothesis = ['?' for _ in attributes]
+
+    for index, row in data.iterrows():
+        if row[class_label] == 'Yes':
+            for i, value in enumerate(row[attributes]):
+                if hypothesis[i] == '?' or hypothesis[i] == value:
+                    hypothesis[i] = value
+                else:
+                    hypothesis[i] = '?'
+
+    return hypothesis
+
+
+file_path = 'training_data.csv'
+hypothesis = find_s_algorithm(file_path)
+print("\nThe final hypothesis is:", hypothesis)
