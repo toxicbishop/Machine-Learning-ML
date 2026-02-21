@@ -29,7 +29,20 @@ To run these experiments locally, follow the steps below.
 
 ### 📋 Prerequisites
 
-Ensure you have Python installed. Install the required libraries using the `requirements.txt` file:
+Ensure you have Python installed. It is recommended to create a virtual environment before installing the required libraries.
+
+```bash
+# Create a virtual environment
+python -m venv venv
+
+# Activate the virtual environment (Windows)
+.\venv\Scripts\activate
+
+# Activate the virtual environment (macOS/Linux)
+source venv/bin/activate
+```
+
+Install the required libraries using the `requirements.txt` file:
 
 ```bash
 pip install -r requirements.txt
